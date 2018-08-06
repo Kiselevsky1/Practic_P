@@ -17,3 +17,6 @@ def check(data):
 
         if x.islower == True:
             two = True
+
+        if x.isupper == True:
+            three = True
