@@ -20,3 +20,7 @@ def check(data):
 
         if x.isupper == True:
             three = True
+
+    if one == False or two == False or three == False:
+        return False
+    return True
