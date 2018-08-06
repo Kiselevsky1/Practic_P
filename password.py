@@ -4,3 +4,16 @@ def check(data):
 
     if data.isdigit() == True:
         return False
+
+
+
+    one = False
+    two = False
+    three = False
+    for x in list(data):
+
+        if x.isdigit == True:
+            one = True
+
+        if x.islower == True:
+            two = True
